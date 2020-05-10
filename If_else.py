@@ -1,4 +1,4 @@
- #loop
-a=int(input())
-for i in range(0,a):
-     print(i*i)
+def leap(year):
+     return year%4==0 and (year%400==0 or year%100 !=0)
+year = int(input())
+print(leap(year))
