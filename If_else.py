@@ -1,4 +1,3 @@
-def leap(year):
-     return year%4==0 and (year%400==0 or year%100 !=0)
-year = int(input())
-print(leap(year))
+n = int(input())
+for i in range(1,n+1):
+        print(i,end="")
