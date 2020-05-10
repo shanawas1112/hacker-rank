@@ -1,8 +1,4 @@
-#division
+ #loop
 a=int(input())
-b=int(input())
-print(a/b)
-c=float(a)
-print(c/b) 
-   
-
+for i in range(0,a):
+     print(i*i)
